@@ -90,8 +90,8 @@ The application code is located at: https://github.com/ahmedzak7/GCP-2025/tree/m
 
 ```bash
 # From management VM
-git clone https://github.com/ahmedzak7/GCP-2025.git
-cd GCP-2025/DevOps-Challenge-Demo-Code-master
+git clone https://github.com/ibrahemyasser/gcp-terraform.git
+cd gcp-terraform/docker
 ```
 
 ### 6. Build & Push Docker Image
