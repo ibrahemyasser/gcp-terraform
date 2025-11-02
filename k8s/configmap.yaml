@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: codemaster-config
+  namespace: production
+data:
+  ENVIRONMENT: "PROD"
+  HOST: "0.0.0.0"
+  PORT: "8080"
+  REDIS_HOST: "redis-service.production.svc.cluster.local"
+  REDIS_PORT: "6379"
+  REDIS_DB: "0"
